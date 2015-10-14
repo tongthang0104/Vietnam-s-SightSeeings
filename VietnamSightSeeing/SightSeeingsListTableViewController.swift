@@ -37,8 +37,15 @@ class SightSeeingsListTableViewController: UITableViewController {
    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("cellSightDisplay", forIndexPath: indexPath)
-
+        
         // Configure the cell...
+        
+        let sightSeeingDisplay = SightSeeingsController.sightSeeing [indexPath.row]
+        cell.detailTextLabel?.text = sightSeeingDisplay.location
+        cell.textLabel?.text = sightSeeingDisplay.name
+        cell.imageView?.image = UIImage(named: sightSeeingDisplay.imageName)
+        
+        
 
         return cell
     }
