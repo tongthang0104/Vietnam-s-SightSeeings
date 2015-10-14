@@ -14,12 +14,15 @@ class SightSeeings {
     let location: String
     let population: Int
     let area: Float
+    let imageName: String
+    
     
     init(name: String, location: String, population: Int, area: Float) {
         self.name = name
         self.location = location
         self.population = population
         self.area = area
+        self.imageName = name.lowercaseString
     }
     
 }
