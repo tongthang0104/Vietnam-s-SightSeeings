@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEBBDA731BCEFFAF00D390A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBBDA721BCEFFAF00D390A8 /* AppDelegate.swift */; };
+		DEBBDA751BCEFFAF00D390A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBBDA741BCEFFAF00D390A8 /* ViewController.swift */; };
+		DEBBDA781BCEFFAF00D390A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBBDA761BCEFFAF00D390A8 /* Main.storyboard */; };
+		DEBBDA7A1BCEFFAF00D390A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEBBDA791BCEFFAF00D390A8 /* Assets.xcassets */; };
+		DEBBDA7D1BCEFFAF00D390A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBBDA7B1BCEFFAF00D390A8 /* LaunchScreen.storyboard */; };
+		DEBBDA881BCEFFAF00D390A8 /* VietnamSightSeeingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBBDA871BCEFFAF00D390A8 /* VietnamSightSeeingTests.swift */; };
+		DEBBDA931BCEFFAF00D390A8 /* VietnamSightSeeingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBBDA921BCEFFAF00D390A8 /* VietnamSightSeeingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEBBDA841BCEFFAF00D390A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEBBDA671BCEFFAF00D390A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEBBDA6E1BCEFFAF00D390A8;
+			remoteInfo = VietnamSightSeeing;
+		};
+		DEBBDA8F1BCEFFAF00D390A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEBBDA671BCEFFAF00D390A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEBBDA6E1BCEFFAF00D390A8;
+			remoteInfo = VietnamSightSeeing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEBBDA6F1BCEFFAF00D390A8 /* VietnamSightSeeing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VietnamSightSeeing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEBBDA721BCEFFAF00D390A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEBBDA741BCEFFAF00D390A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEBBDA771BCEFFAF00D390A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEBBDA791BCEFFAF00D390A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEBBDA7C1BCEFFAF00D390A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEBBDA7E1BCEFFAF00D390A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEBBDA831BCEFFAF00D390A8 /* VietnamSightSeeingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VietnamSightSeeingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEBBDA871BCEFFAF00D390A8 /* VietnamSightSeeingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VietnamSightSeeingTests.swift; sourceTree = "<group>"; };
+		DEBBDA891BCEFFAF00D390A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEBBDA8E1BCEFFAF00D390A8 /* VietnamSightSeeingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VietnamSightSeeingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEBBDA921BCEFFAF00D390A8 /* VietnamSightSeeingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VietnamSightSeeingUITests.swift; sourceTree = "<group>"; };
+		DEBBDA941BCEFFAF00D390A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEBBDA6C1BCEFFAF00D390A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBBDA801BCEFFAF00D390A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBBDA8B1BCEFFAF00D390A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEBBDA661BCEFFAF00D390A8 = {
+			isa = PBXGroup;
+			children = (
+				DEBBDA711BCEFFAF00D390A8 /* VietnamSightSeeing */,
+				DEBBDA861BCEFFAF00D390A8 /* VietnamSightSeeingTests */,
+				DEBBDA911BCEFFAF00D390A8 /* VietnamSightSeeingUITests */,
+				DEBBDA701BCEFFAF00D390A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEBBDA701BCEFFAF00D390A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEBBDA6F1BCEFFAF00D390A8 /* VietnamSightSeeing.app */,
+				DEBBDA831BCEFFAF00D390A8 /* VietnamSightSeeingTests.xctest */,
+				DEBBDA8E1BCEFFAF00D390A8 /* VietnamSightSeeingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEBBDA711BCEFFAF00D390A8 /* VietnamSightSeeing */ = {
+			isa = PBXGroup;
+			children = (
+				DEBBDA721BCEFFAF00D390A8 /* AppDelegate.swift */,
+				DEBBDA741BCEFFAF00D390A8 /* ViewController.swift */,
+				DEBBDA761BCEFFAF00D390A8 /* Main.storyboard */,
+				DEBBDA791BCEFFAF00D390A8 /* Assets.xcassets */,
+				DEBBDA7B1BCEFFAF00D390A8 /* LaunchScreen.storyboard */,
+				DEBBDA7E1BCEFFAF00D390A8 /* Info.plist */,
+			);
+			path = VietnamSightSeeing;
+			sourceTree = "<group>";
+		};
+		DEBBDA861BCEFFAF00D390A8 /* VietnamSightSeeingTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEBBDA871BCEFFAF00D390A8 /* VietnamSightSeeingTests.swift */,
+				DEBBDA891BCEFFAF00D390A8 /* Info.plist */,
+			);
+			path = VietnamSightSeeingTests;
+			sourceTree = "<group>";
+		};
+		DEBBDA911BCEFFAF00D390A8 /* VietnamSightSeeingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEBBDA921BCEFFAF00D390A8 /* VietnamSightSeeingUITests.swift */,
+				DEBBDA941BCEFFAF00D390A8 /* Info.plist */,
+			);
+			path = VietnamSightSeeingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEBBDA6E1BCEFFAF00D390A8 /* VietnamSightSeeing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEBBDA971BCEFFAF00D390A8 /* Build configuration list for PBXNativeTarget "VietnamSightSeeing" */;
+			buildPhases = (
+				DEBBDA6B1BCEFFAF00D390A8 /* Sources */,
+				DEBBDA6C1BCEFFAF00D390A8 /* Frameworks */,
+				DEBBDA6D1BCEFFAF00D390A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VietnamSightSeeing;
+			productName = VietnamSightSeeing;
+			productReference = DEBBDA6F1BCEFFAF00D390A8 /* VietnamSightSeeing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEBBDA821BCEFFAF00D390A8 /* VietnamSightSeeingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEBBDA9A1BCEFFAF00D390A8 /* Build configuration list for PBXNativeTarget "VietnamSightSeeingTests" */;
+			buildPhases = (
+				DEBBDA7F1BCEFFAF00D390A8 /* Sources */,
+				DEBBDA801BCEFFAF00D390A8 /* Frameworks */,
+				DEBBDA811BCEFFAF00D390A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEBBDA851BCEFFAF00D390A8 /* PBXTargetDependency */,
+			);
+			name = VietnamSightSeeingTests;
+			productName = VietnamSightSeeingTests;
+			productReference = DEBBDA831BCEFFAF00D390A8 /* VietnamSightSeeingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEBBDA8D1BCEFFAF00D390A8 /* VietnamSightSeeingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEBBDA9D1BCEFFAF00D390A8 /* Build configuration list for PBXNativeTarget "VietnamSightSeeingUITests" */;
+			buildPhases = (
+				DEBBDA8A1BCEFFAF00D390A8 /* Sources */,
+				DEBBDA8B1BCEFFAF00D390A8 /* Frameworks */,
+				DEBBDA8C1BCEFFAF00D390A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEBBDA901BCEFFAF00D390A8 /* PBXTargetDependency */,
+			);
+			name = VietnamSightSeeingUITests;
+			productName = VietnamSightSeeingUITests;
+			productReference = DEBBDA8E1BCEFFAF00D390A8 /* VietnamSightSeeingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEBBDA671BCEFFAF00D390A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Thang;
+				TargetAttributes = {
+					DEBBDA6E1BCEFFAF00D390A8 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DEBBDA821BCEFFAF00D390A8 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DEBBDA6E1BCEFFAF00D390A8;
+					};
+					DEBBDA8D1BCEFFAF00D390A8 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DEBBDA6E1BCEFFAF00D390A8;
+					};
+				};
+			};
+			buildConfigurationList = DEBBDA6A1BCEFFAF00D390A8 /* Build configuration list for PBXProject "VietnamSightSeeing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEBBDA661BCEFFAF00D390A8;
+			productRefGroup = DEBBDA701BCEFFAF00D390A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEBBDA6E1BCEFFAF00D390A8 /* VietnamSightSeeing */,
+				DEBBDA821BCEFFAF00D390A8 /* VietnamSightSeeingTests */,
+				DEBBDA8D1BCEFFAF00D390A8 /* VietnamSightSeeingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEBBDA6D1BCEFFAF00D390A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBBDA7D1BCEFFAF00D390A8 /* LaunchScreen.storyboard in Resources */,
+				DEBBDA7A1BCEFFAF00D390A8 /* Assets.xcassets in Resources */,
+				DEBBDA781BCEFFAF00D390A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBBDA811BCEFFAF00D390A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBBDA8C1BCEFFAF00D390A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEBBDA6B1BCEFFAF00D390A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBBDA751BCEFFAF00D390A8 /* ViewController.swift in Sources */,
+				DEBBDA731BCEFFAF00D390A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBBDA7F1BCEFFAF00D390A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBBDA881BCEFFAF00D390A8 /* VietnamSightSeeingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBBDA8A1BCEFFAF00D390A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBBDA931BCEFFAF00D390A8 /* VietnamSightSeeingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEBBDA851BCEFFAF00D390A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEBBDA6E1BCEFFAF00D390A8 /* VietnamSightSeeing */;
+			targetProxy = DEBBDA841BCEFFAF00D390A8 /* PBXContainerItemProxy */;
+		};
+		DEBBDA901BCEFFAF00D390A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEBBDA6E1BCEFFAF00D390A8 /* VietnamSightSeeing */;
+			targetProxy = DEBBDA8F1BCEFFAF00D390A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEBBDA761BCEFFAF00D390A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEBBDA771BCEFFAF00D390A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEBBDA7B1BCEFFAF00D390A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEBBDA7C1BCEFFAF00D390A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEBBDA951BCEFFAF00D390A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEBBDA961BCEFFAF00D390A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEBBDA981BCEFFAF00D390A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VietnamSightSeeing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TaTo.VietnamSightSeeing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEBBDA991BCEFFAF00D390A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VietnamSightSeeing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TaTo.VietnamSightSeeing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEBBDA9B1BCEFFAF00D390A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VietnamSightSeeingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TaTo.VietnamSightSeeingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VietnamSightSeeing.app/VietnamSightSeeing";
+			};
+			name = Debug;
+		};
+		DEBBDA9C1BCEFFAF00D390A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VietnamSightSeeingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TaTo.VietnamSightSeeingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VietnamSightSeeing.app/VietnamSightSeeing";
+			};
+			name = Release;
+		};
+		DEBBDA9E1BCEFFAF00D390A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VietnamSightSeeingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TaTo.VietnamSightSeeingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VietnamSightSeeing;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DEBBDA9F1BCEFFAF00D390A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VietnamSightSeeingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TaTo.VietnamSightSeeingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VietnamSightSeeing;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEBBDA6A1BCEFFAF00D390A8 /* Build configuration list for PBXProject "VietnamSightSeeing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBBDA951BCEFFAF00D390A8 /* Debug */,
+				DEBBDA961BCEFFAF00D390A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEBBDA971BCEFFAF00D390A8 /* Build configuration list for PBXNativeTarget "VietnamSightSeeing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBBDA981BCEFFAF00D390A8 /* Debug */,
+				DEBBDA991BCEFFAF00D390A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEBBDA9A1BCEFFAF00D390A8 /* Build configuration list for PBXNativeTarget "VietnamSightSeeingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBBDA9B1BCEFFAF00D390A8 /* Debug */,
+				DEBBDA9C1BCEFFAF00D390A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEBBDA9D1BCEFFAF00D390A8 /* Build configuration list for PBXNativeTarget "VietnamSightSeeingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBBDA9E1BCEFFAF00D390A8 /* Debug */,
+				DEBBDA9F1BCEFFAF00D390A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEBBDA671BCEFFAF00D390A8 /* Project object */;
+}
