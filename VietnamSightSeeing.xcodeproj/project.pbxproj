@@ -14,6 +14,8 @@
 		DEBBDA7D1BCEFFAF00D390A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBBDA7B1BCEFFAF00D390A8 /* LaunchScreen.storyboard */; };
 		DEBBDA881BCEFFAF00D390A8 /* VietnamSightSeeingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBBDA871BCEFFAF00D390A8 /* VietnamSightSeeingTests.swift */; };
 		DEBBDA931BCEFFAF00D390A8 /* VietnamSightSeeingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBBDA921BCEFFAF00D390A8 /* VietnamSightSeeingUITests.swift */; };
+		DEBBDAA11BCF000E00D390A8 /* SightSeeingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBBDAA01BCF000E00D390A8 /* SightSeeingsController.swift */; };
+		DEBBDAA31BCF001C00D390A8 /* SightSeeings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBBDAA21BCF001C00D390A8 /* SightSeeings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		DEBBDA8E1BCEFFAF00D390A8 /* VietnamSightSeeingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VietnamSightSeeingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEBBDA921BCEFFAF00D390A8 /* VietnamSightSeeingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VietnamSightSeeingUITests.swift; sourceTree = "<group>"; };
 		DEBBDA941BCEFFAF00D390A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEBBDAA01BCF000E00D390A8 /* SightSeeingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SightSeeingsController.swift; sourceTree = "<group>"; };
+		DEBBDAA21BCF001C00D390A8 /* SightSeeings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SightSeeings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				DEBBDA721BCEFFAF00D390A8 /* AppDelegate.swift */,
 				DEBBDA741BCEFFAF00D390A8 /* ViewController.swift */,
+				DEBBDAA01BCF000E00D390A8 /* SightSeeingsController.swift */,
+				DEBBDAA21BCF001C00D390A8 /* SightSeeings.swift */,
 				DEBBDA761BCEFFAF00D390A8 /* Main.storyboard */,
 				DEBBDA791BCEFFAF00D390A8 /* Assets.xcassets */,
 				DEBBDA7B1BCEFFAF00D390A8 /* LaunchScreen.storyboard */,
@@ -256,6 +262,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEBBDA751BCEFFAF00D390A8 /* ViewController.swift in Sources */,
+				DEBBDAA11BCF000E00D390A8 /* SightSeeingsController.swift in Sources */,
+				DEBBDAA31BCF001C00D390A8 /* SightSeeings.swift in Sources */,
 				DEBBDA731BCEFFAF00D390A8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
