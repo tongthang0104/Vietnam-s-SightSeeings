@@ -22,6 +22,17 @@ class SightSeeingsDetailViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    func updateWithSightSeeings (sightseeing: SightSeeings) {
+        
+        locationUpdated.text = sightseeing.location
+        populationUpdate.text = "\(sightseeing.population) people"
+        areaUpdate.text = "\(sightseeing.area) kilometer square"
+        imageUpdate.image = UIImage (named: sightseeing.imageName)
+        
+        
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
