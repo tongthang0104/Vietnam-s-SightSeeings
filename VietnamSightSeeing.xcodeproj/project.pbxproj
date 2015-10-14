@@ -105,10 +105,10 @@
 			children = (
 				DEBBDA721BCEFFAF00D390A8 /* AppDelegate.swift */,
 				DEBBDA741BCEFFAF00D390A8 /* ViewController.swift */,
-				DEBBDAA41BCF049F00D390A8 /* SightSeeingsListTableViewController.swift */,
 				DEBBDA761BCEFFAF00D390A8 /* Main.storyboard */,
 				DEBBDAA01BCF000E00D390A8 /* SightSeeingsController.swift */,
 				DEBBDAA21BCF001C00D390A8 /* SightSeeings.swift */,
+				DEBBDAA41BCF049F00D390A8 /* SightSeeingsListTableViewController.swift */,
 				DEBBDA791BCEFFAF00D390A8 /* Assets.xcassets */,
 				DEBBDA7B1BCEFFAF00D390A8 /* LaunchScreen.storyboard */,
 				DEBBDA7E1BCEFFAF00D390A8 /* Info.plist */,
