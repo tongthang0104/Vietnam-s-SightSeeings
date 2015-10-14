@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SightSeeingsDetailViewController.swift
 //  VietnamSightSeeing
 //
 //  Created by Thang H Tong on 10/14/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SightSeeingsDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

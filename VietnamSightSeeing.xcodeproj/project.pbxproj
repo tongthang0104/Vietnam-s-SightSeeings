@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DEBBDA731BCEFFAF00D390A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBBDA721BCEFFAF00D390A8 /* AppDelegate.swift */; };
-		DEBBDA751BCEFFAF00D390A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBBDA741BCEFFAF00D390A8 /* ViewController.swift */; };
+		DEBBDA751BCEFFAF00D390A8 /* SightSeeingsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBBDA741BCEFFAF00D390A8 /* SightSeeingsDetailViewController.swift */; };
 		DEBBDA781BCEFFAF00D390A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBBDA761BCEFFAF00D390A8 /* Main.storyboard */; };
 		DEBBDA7A1BCEFFAF00D390A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEBBDA791BCEFFAF00D390A8 /* Assets.xcassets */; };
 		DEBBDA7D1BCEFFAF00D390A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBBDA7B1BCEFFAF00D390A8 /* LaunchScreen.storyboard */; };
@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		DEBBDA6F1BCEFFAF00D390A8 /* VietnamSightSeeing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VietnamSightSeeing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEBBDA721BCEFFAF00D390A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DEBBDA741BCEFFAF00D390A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEBBDA741BCEFFAF00D390A8 /* SightSeeingsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightSeeingsDetailViewController.swift; sourceTree = "<group>"; };
 		DEBBDA771BCEFFAF00D390A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEBBDA791BCEFFAF00D390A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEBBDA7C1BCEFFAF00D390A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -104,11 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				DEBBDA721BCEFFAF00D390A8 /* AppDelegate.swift */,
-				DEBBDA741BCEFFAF00D390A8 /* ViewController.swift */,
 				DEBBDA761BCEFFAF00D390A8 /* Main.storyboard */,
-				DEBBDAA01BCF000E00D390A8 /* SightSeeingsController.swift */,
-				DEBBDAA21BCF001C00D390A8 /* SightSeeings.swift */,
 				DEBBDAA41BCF049F00D390A8 /* SightSeeingsListTableViewController.swift */,
+				DEBBDA741BCEFFAF00D390A8 /* SightSeeingsDetailViewController.swift */,
+				DEBBDAA21BCF001C00D390A8 /* SightSeeings.swift */,
+				DEBBDAA01BCF000E00D390A8 /* SightSeeingsController.swift */,
 				DEBBDA791BCEFFAF00D390A8 /* Assets.xcassets */,
 				DEBBDA7B1BCEFFAF00D390A8 /* LaunchScreen.storyboard */,
 				DEBBDA7E1BCEFFAF00D390A8 /* Info.plist */,
@@ -264,7 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEBBDA751BCEFFAF00D390A8 /* ViewController.swift in Sources */,
+				DEBBDA751BCEFFAF00D390A8 /* SightSeeingsDetailViewController.swift in Sources */,
 				DEBBDAA11BCF000E00D390A8 /* SightSeeingsController.swift in Sources */,
 				DEBBDAA51BCF049F00D390A8 /* SightSeeingsListTableViewController.swift in Sources */,
 				DEBBDAA31BCF001C00D390A8 /* SightSeeings.swift in Sources */,

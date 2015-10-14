@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9040"/>
     </dependencies>
     <scenes>
-        <!--Sight Seeings List Table View Controller-->
+        <!--Vietnam Sightseeings-->
         <scene sceneID="akZ-a3-sky">
             <objects>
                 <tableViewController id="c4l-cD-fnN" customClass="SightSeeingsListTableViewController" customModule="VietnamSightSeeing" customModuleProvider="target" sceneMemberID="viewController">
@@ -13,7 +13,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellSightDisplay" textLabel="lvv-qX-Ln4" detailTextLabel="Nic-iS-LaQ" imageView="Z4h-GW-oYP" style="IBUITableViewCellStyleSubtitle" id="q71-at-RiG">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellSightDisplay" textLabel="lvv-qX-Ln4" detailTextLabel="Nic-iS-LaQ" style="IBUITableViewCellStyleSubtitle" id="q71-at-RiG">
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="q71-at-RiG" id="dlC-Gk-2hQ">
@@ -21,23 +21,19 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lvv-qX-Ln4">
-                                            <rect key="frame" x="111" y="6" width="31.5" height="19.5"/>
+                                            <rect key="frame" x="15" y="6" width="31.5" height="19.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nic-iS-LaQ">
-                                            <rect key="frame" x="111" y="25.5" width="40.5" height="13.5"/>
+                                            <rect key="frame" x="15" y="25.5" width="40.5" height="13.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="halongbay" id="Z4h-GW-oYP">
-                                            <rect key="frame" x="15" y="0.0" width="81" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -47,16 +43,16 @@
                             <outlet property="delegate" destination="c4l-cD-fnN" id="1MD-8z-t9v"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="rt0-h1-7yO"/>
+                    <navigationItem key="navigationItem" title="Vietnam Sightseeings" id="rt0-h1-7yO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Hk-Mm-ygo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="272" y="357"/>
         </scene>
-        <!--View Controller-->
+        <!--Sight Seeings Detail View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="VietnamSightSeeing" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SightSeeingsDetailViewController" customModule="VietnamSightSeeing" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -64,6 +60,11 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a2f-EA-gvp">
+                                <rect key="frame" x="180" y="99" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -90,7 +91,4 @@
             <point key="canvasLocation" x="-362" y="357"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="halongbay" width="1600" height="857"/>
-    </resources>
 </document>
