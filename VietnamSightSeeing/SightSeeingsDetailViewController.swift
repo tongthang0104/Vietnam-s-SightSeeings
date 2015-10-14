@@ -10,6 +10,14 @@ import UIKit
 
 class SightSeeingsDetailViewController: UIViewController {
 
+    
+    //MARK: Properties
+    
+    @IBOutlet weak var areaUpdate: UILabel!
+    @IBOutlet weak var populationUpdate: UILabel!
+    @IBOutlet weak var locationUpdated: UILabel!
+    @IBOutlet weak var imageUpdate: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
