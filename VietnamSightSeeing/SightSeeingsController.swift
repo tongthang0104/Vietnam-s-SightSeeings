@@ -26,3 +26,4 @@ class SightSeeingsController {
         return [sapa, haNoi, haLongBay, hoiAn, nhaTrang, saigon, phuQuoc, caMau]
     }
 }
+
