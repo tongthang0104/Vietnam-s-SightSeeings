@@ -18,9 +18,19 @@ class SightSeeingsDetailViewController: UIViewController {
     @IBOutlet weak var locationUpdated: UILabel!
     @IBOutlet weak var imageUpdate: UIImageView!
     
+    // the segue will come here to find my sightSeeing variable
+    var sightSeeing: SightSeeings? //this is class
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //I update my viewDidLoad so whenever the view change, it will load the updateWithSeeing methods from the ListTableView
+        
+        if let sightSeeing = sightSeeing { // I update
+            updateWithSightSeeings(sightSeeing)
+        }
+        
     }
     
     func updateWithSightSeeings (sightseeing: SightSeeings) {

@@ -9,7 +9,11 @@
 import UIKit
 
 class SightSeeingsListTableViewController: UITableViewController {
-
+    
+    
+    // I create a variable sightSeeing and refer it to SightSeeing class to access the array. IT IS OPTIONAL TYPE
+    var sightSeeing: SightSeeings?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -85,15 +89,33 @@ class SightSeeingsListTableViewController: UITableViewController {
         return true
     }
     */
-
-    /*
     // MARK: - Navigation
 
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        sightSeeing = SightSeeingsController.sightSeeing[indexPath.row]
+        self.performSegueWithIdentifier("displaySightDetail", sender: nil)
+    }
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        
+        // Identify the segue 
+        if segue.identifier == "displaySightDetail" {
+            
+            // I create a variable to use and update later and set that equal my View Destination
+            let displaySight = segue.destinationViewController as! SightSeeingsDetailViewController
+            
+            // because sightSeeing variable above is Optional so I use if let function to unwrap it
+            if let sightSeeing = sightSeeing {
+                
+                // I assign the property for my variable displaySight (it holds my segue to my destination) to variable sightSeeing above and make it equal the property sightSeeing (it is from ListTableView)
+                displaySight.sightSeeing = sightSeeing
+            }
+            
+            
+        }
+        
     }
-    */
+    
 
 }
